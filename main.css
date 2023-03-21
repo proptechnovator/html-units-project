@@ -1,0 +1,41 @@
+/*set default style*/
+*{
+    margin: 0;
+}
+#navbar{
+    height: 100px;
+    background-color: #ff6c2c;
+    width: 100vw;
+}
+#navbar span{
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+}
+.hero{
+    color: #ff6c2c;
+    background-color: #e9e9e9;
+    height: calc(100vh - 100px);
+    width: 100vw;
+}
+.hero span{
+    font-size: 2em;
+    font-weight: 600;
+    padding: 15px;
+
+}
+h1,p{
+    color: black;
+    overflow-wrap: normal;
+    padding: 15px;
+
+}
+button {
+    margin-left:15px;
+    padding:10px;
+    font-weight: 600;
+    color: white;
+    background-color: #ff6c2c;
+    border-color: white;
+    border-radius: .5em;   
+}
